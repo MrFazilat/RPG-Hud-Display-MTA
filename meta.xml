@@ -1,0 +1,139 @@
+<BaltazarMTA>
+<!-- Tel: @Mr_Fazilat
+    ███████╗██╗░░██╗░█████╗░░██████╗███████╗██╗░░██╗
+    ██╔════╝╚██╗██╔╝██╔══██╗██╔════╝██╔════╝██║░░██║
+    █████╗░░░╚███╔╝░███████║╚█████╗░█████╗░░███████║
+    ██╔══╝░░░██╔██╗░██╔══██║░╚═══██╗██╔══╝░░██╔══██║
+    ███████╗██╔╝╚██╗██║░░██║██████╔╝██║░░░░░██║░░██║
+    ╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░░░░╚═╝░░╚═╝ 
+-->
+    <info author="Tel: @Mr_Fazilat" version="1.0" name="Hud" type="Script"/>
+    <oop>true</oop>
+    <script src="Config_C.lua" type="client" cache="false"/>
+    <script src="Scripts/Hud_C.lua" type="client" cache="false"/>
+    <script src="Scripts/Radar_C.lua" type="client" cache="false"/>
+    <file src="Files/Hud/BG.png"/>
+    <file src="Files/Hud/HP.png"/>
+    <file src="Files/Hud/Armor.png"/>
+    <file src="Files/Hud/Food.png"/>
+    <file src="Files/Hud/Water.png"/>
+    <file src="Files/Hud/Wanted_0.png"/>
+    <file src="Files/Hud/Wanted_1.png"/>
+    <file src="Files/Hud/Wanted_2.png"/>
+    <file src="Files/Hud/Wanted_3.png"/>
+    <file src="Files/Hud/Wanted_4.png"/>
+    <file src="Files/Hud/Wanted_5.png"/>
+    <file src="Files/Hud/Wanted_6.png"/>
+    <file src="Files/Hud/Weapon/Weapon_0.png"/>
+    <file src="Files/Hud/Weapon/Weapon_1.png"/>
+    <file src="Files/Hud/Weapon/Weapon_2.png"/>
+    <file src="Files/Hud/Weapon/Weapon_3.png"/>
+    <file src="Files/Hud/Weapon/Weapon_4.png"/>
+    <file src="Files/Hud/Weapon/Weapon_5.png"/>
+    <file src="Files/Hud/Weapon/Weapon_6.png"/>
+    <file src="Files/Hud/Weapon/Weapon_7.png"/>
+    <file src="Files/Hud/Weapon/Weapon_8.png"/>
+    <file src="Files/Hud/Weapon/Weapon_9.png"/>
+    <file src="Files/Hud/Weapon/Weapon_10.png"/>
+    <file src="Files/Hud/Weapon/Weapon_11.png"/>
+    <file src="Files/Hud/Weapon/Weapon_12.png"/>
+    <file src="Files/Hud/Weapon/Weapon_14.png"/>
+    <file src="Files/Hud/Weapon/Weapon_15.png"/>
+    <file src="Files/Hud/Weapon/Weapon_16.png"/>
+    <file src="Files/Hud/Weapon/Weapon_17.png"/>
+    <file src="Files/Hud/Weapon/Weapon_18.png"/>
+    <file src="Files/Hud/Weapon/Weapon_22.png"/>
+    <file src="Files/Hud/Weapon/Weapon_23.png"/>
+    <file src="Files/Hud/Weapon/Weapon_24.png"/>
+    <file src="Files/Hud/Weapon/Weapon_25.png"/>
+    <file src="Files/Hud/Weapon/Weapon_26.png"/>
+    <file src="Files/Hud/Weapon/Weapon_27.png"/>
+    <file src="Files/Hud/Weapon/Weapon_28.png"/>
+    <file src="Files/Hud/Weapon/Weapon_29.png"/>
+    <file src="Files/Hud/Weapon/Weapon_30.png"/>
+    <file src="Files/Hud/Weapon/Weapon_31.png"/>
+    <file src="Files/Hud/Weapon/Weapon_32.png"/>
+    <file src="Files/Hud/Weapon/Weapon_33.png"/>
+    <file src="Files/Hud/Weapon/Weapon_34.png"/>
+    <file src="Files/Hud/Weapon/Weapon_35.png"/>
+    <file src="Files/Hud/Weapon/Weapon_36.png"/>
+    <file src="Files/Hud/Weapon/Weapon_37.png"/>
+    <file src="Files/Hud/Weapon/Weapon_38.png"/>
+    <file src="Files/Hud/Weapon/Weapon_39.png"/>
+    <file src="Files/Hud/Weapon/Weapon_40.png"/>
+    <file src="Files/Hud/Weapon/Weapon_41.png"/>
+    <file src="Files/Hud/Weapon/Weapon_42.png"/>
+    <file src="Files/Hud/Weapon/Weapon_43.png"/>
+    <file src="Files/Hud/Weapon/Weapon_46.png"/>
+    <file src="Files/Font/bold.woff"/>
+    <file src="Files/Font/Bangersr.ttf"/>
+    <file src="Files/Radar/Radar.dds"/>
+    <file src="Files/Radar/RadarZone.png"/>
+    <file src="Files/Radar/RadarMask.png"/>
+    <file src="Files/Radar/hud_mask.fx"/>
+    <file src="Files/Radar/tex_matrix.fx"/>
+    <file src="Files/Radar/Blips/Arrow.png"/>
+    <file src="Files/Radar/Blips/1.png"/>
+    <file src="Files/Radar/Blips/0.png"/>
+    <file src="Files/Radar/Blips/3.png"/>
+    <file src="Files/Radar/Blips/4.png"/>
+    <file src="Files/Radar/Blips/6.png"/>
+    <file src="Files/Radar/Blips/7.png"/>
+    <file src="Files/Radar/Blips/8.png"/>
+    <file src="Files/Radar/Blips/9.png"/>
+    <file src="Files/Radar/Blips/10.png"/>
+    <file src="Files/Radar/Blips/11.png"/>
+    <file src="Files/Radar/Blips/12.png"/>
+    <file src="Files/Radar/Blips/13.png"/>
+    <file src="Files/Radar/Blips/14.png"/>
+    <file src="Files/Radar/Blips/15.png"/>
+    <file src="Files/Radar/Blips/16.png"/>
+    <file src="Files/Radar/Blips/17.png"/>
+    <file src="Files/Radar/Blips/18.png"/>
+    <file src="Files/Radar/Blips/19.png"/>
+    <file src="Files/Radar/Blips/20.png"/>
+    <file src="Files/Radar/Blips/21.png"/>
+    <file src="Files/Radar/Blips/22.png"/>
+    <file src="Files/Radar/Blips/23.png"/>
+    <file src="Files/Radar/Blips/24.png"/>
+    <file src="Files/Radar/Blips/25.png"/>
+    <file src="Files/Radar/Blips/26.png"/>
+    <file src="Files/Radar/Blips/27.png"/>
+    <file src="Files/Radar/Blips/28.png"/>
+    <file src="Files/Radar/Blips/29.png"/>
+    <file src="Files/Radar/Blips/30.png"/>
+    <file src="Files/Radar/Blips/31.png"/>
+    <file src="Files/Radar/Blips/32.png"/>
+    <file src="Files/Radar/Blips/33.png"/>
+    <file src="Files/Radar/Blips/34.png"/>
+    <file src="Files/Radar/Blips/35.png"/>
+    <file src="Files/Radar/Blips/36.png"/>
+    <file src="Files/Radar/Blips/37.png"/>
+    <file src="Files/Radar/Blips/38.png"/>
+    <file src="Files/Radar/Blips/39.png"/>
+    <file src="Files/Radar/Blips/40.png"/>
+    <file src="Files/Radar/Blips/41.png"/>
+    <file src="Files/Radar/Blips/42.png"/>
+    <file src="Files/Radar/Blips/43.png"/>
+    <file src="Files/Radar/Blips/44.png"/>
+    <file src="Files/Radar/Blips/45.png"/>
+    <file src="Files/Radar/Blips/46.png"/>
+    <file src="Files/Radar/Blips/47.png"/>
+    <file src="Files/Radar/Blips/48.png"/>
+    <file src="Files/Radar/Blips/49.png"/>
+    <file src="Files/Radar/Blips/50.png"/>
+    <file src="Files/Radar/Blips/51.png"/>
+    <file src="Files/Radar/Blips/52.png"/>
+    <file src="Files/Radar/Blips/53.png"/>
+    <file src="Files/Radar/Blips/54.png"/>
+    <file src="Files/Radar/Blips/55.png"/>
+    <file src="Files/Radar/Blips/56.png"/>
+    <file src="Files/Radar/Blips/57.png"/>
+    <file src="Files/Radar/Blips/58.png"/>
+    <file src="Files/Radar/Blips/59.png"/>
+    <file src="Files/Radar/Blips/60.png"/>
+    <file src="Files/Radar/Blips/61.png"/>
+    <file src="Files/Radar/Blips/62.png"/>
+    <file src="Files/Radar/Blips/63.png"/>
+    <file src="ReadMe.txt"/>
+</BaltazarMTA>
